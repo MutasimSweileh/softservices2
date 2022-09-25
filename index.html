@@ -1,0 +1,782 @@
+<!doctype html>
+<html class="no-js" lang="">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>شركة سوفت سيرفيس للخدمات البيئية </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- MeanMenu CSS -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- FlatIcon CSS -->
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <!-- Nivo Slider CSS -->
+    <link rel="stylesheet" href="vendor/slider/css/nivo-slider.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="vendor/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/OwlCarousel/owl.theme.default.min.css">
+    <!-- Select 2 CSS -->
+    <link rel="stylesheet" href="css/select2.min.css">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <!-- Datetime Picker CSS -->
+    <link rel="stylesheet" href="css/jquery.datetimepicker.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Modernize js -->
+    <script src="js/modernizr-3.7.1.min.js"></script>
+</head>
+
+<body class="sticky-header">
+
+    <!-- ScrollUp Start Here -->
+    <a href="#wrapper" data-type="section-switch" class="scrollup">
+        <i class="fal fa-angle-double-up"></i>
+    </a>
+
+
+
+
+    <div id="wrapper" class="wrapper overflow-hidden">
+
+        <!-- Header Area Start Here -->
+        <header class="header">
+            <div id="header-topbar" class="bg-Primary">
+                <div class="container">
+                    <div class="row d-flex align-items-center  justify-content-end">
+
+                        <div class="col-lg-8 d-flex justify-content-end">
+
+                            <div class="header-topbar-layout2">
+                                <div class="header-top-left">
+                                    <ul class="search-bar-area">
+                                        <li class="location-title"><i class="flaticon-mail"></i><span>Info@soft-services.net</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="header-topbar-layout2">
+ <div class="top-left">
+                        <ul class="social-links clearfix">
+                            <li>
+                                <a href="<?=getValue('facebook')?>" target="_blank" title="">
+                                    <div class="main-ico"><span class="fab fa-facebook-f"></span></div>
+                                    <div class="hover-ico"><span class="facebook fab fa-facebook-f"></span></div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="<?=getValue('facebook')?>" target="_blank" title="">
+                                    <div class="main-ico"><span class="fab fa-twitter"></span></div>
+                                    <div class="hover-ico"><span class="twitter fab fa-twitter"></span></div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="<?=getValue('facebook')?>" target="_blank" title="">
+                                    <div class="main-ico"><span class="fab fa-linkedin-in"></span></div>
+                                    <div class="hover-ico"><span class="linkedin fab fa-linkedin-in"></span></div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="<?=getValue('facebook')?>" target="_blank" title="">
+                                    <div class="main-ico"><span class="fab fa-instagram"></span></div>
+                                    <div class="hover-ico"><span class="instagram fab fa-instagram"></span></div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="<?=getValue('facebook')?>" target="_blank" title="">
+                                    <div class="main-ico"><span class="fab fa-youtube"></span></div>
+                                    <div class="hover-ico"><span class="youtube fab fa-youtube"></span></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="rt-sticky-placeholder"></div>
+            <div id="header-menu" class="header-menu menu-layout1">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-area">
+                                <a href="#" class="temp-logo">
+                                    <img src="images/logo.png" alt="logo" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 d-flex justify-content-end position-static">
+                            <nav id="dropdown" class="template-main-menu">
+                                <ul>
+                                   <li>
+                                        <a href="<?= $core->getPageUrl("index" . $plang) ?>" title=""><?= getTitle("index" . $plang) ?></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("about" . $plang) ?>" title=""><?= getTitle("about" . $plang) ?></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("services" . $plang) ?>" title=""><?= getTitle("services" . $plang) ?></a>
+                                        <ul class="dropdown-menu-col-1">
+                                            <li>
+                                                <a href="#" title="">أداري</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="">فندقي</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="">مطارات</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="">تجاري</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="#" title="">حكومي</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="#" title="">تنظيف واجهات زجاجيه</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("news" . $plang) ?>" title=""><?= getTitle("news" . $plang) ?></a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("gallery" . $plang) ?>" title=""><?= getTitle("gallery" . $plang) ?></a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("contact" . $plang) ?>" title=""><?= getTitle("contact" . $plang) ?></a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-lg-3 d-flex justify-content-end">
+                            <div class="header-action-layout1">
+                                <ul>
+                                    <li class="header-action-number-2">
+                                        <div class="item-icon">
+                                            <i class="flaticon-phone-call"></i>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="item-number">ابق علي اتصال</div>
+                                            <div class="item-number">01003728233 - 01277775321</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Area End Here -->
+
+
+
+
+
+
+
+        <!-- Start Main Slides Area -->
+        <div class="main-slides-area">
+                <div class="home-slides owl-carousel owl-theme">
+
+                    <div class="main-slides-item" style="background:url(images/slider07.jpg)"></div>
+
+                    <div class="main-slides-item" style="background:url(images/kkk.png)"></div>
+
+
+                    <div class="main-slides-item" style="background:url(images/slider08.jpg)"></div>
+
+
+                </div>
+
+
+<!--
+            <div class="row__shape">
+<svg version="1.1" class="shape__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1366 231" preserveAspectRatio="none" style="enable-background:new 0 0 1366 231;"
+                                    xml:space="preserve"><path fill="#ffffff" d="M0,54c0,0,106,134,307,101c246-63,285-39,368-22c106,33,225,90,292,62c109-39,255-191,399-178 c0,128,0,214,0,214H0V54z"/> <path fill="#ffffff" style="opacity: 0.45" d="M-1,231h188h1178c0,0,2-104,0-214c-297,10-383,309-632,143c-39,0-122,51-325-17C172,216-1,31-1,31"/> <path fill="#ffffff" style="opacity: 0.45" d="M1366,227c0,0,0-71.03,0-203c-198-44-439,252-559,156c-13,1,0.7-9.44-53-20c-116.23-22.86-254.55-23.5-371-17 C157,121-4,172.01-4,172.01"/></svg>
+        </div>
+-->
+        </div>
+        <!-- End Main Slides Area -->
+
+
+        <section class="about-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-box-layout5">
+                            <div class="item-img">
+                                <img src="images/about2.jpg" alt="thumb">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-box-layout4 pl-lg-5">
+                            <div class="tag-line">من نحن</div>
+                            <h2 class="item-title">شركة سوفت سيرفيس للخدمات البيئية </h2> 
+                 
+                            <div class="service-list">
+                                <ul>
+
+<li>شركة متخصصة في مجال النظافة والتطهير والتعقيم.</li>
+
+<li>(شركات-مصانع-مخازن-مطارات-فنادق-شقق-فلل).</li>
+
+<li>فريق مُدرب بكفاءة عالية على تقديم أفضل الخدمات.</li>
+
+<li>متابعة فيما بعد التنفيذ للوصول لأقصى درجات رضاء العميل.</li>
+
+<li>خبرة لأكثر من 10 عاماً.</li>
+                                </ul>
+                            </div>
+                            <div class="action-area">
+                                <a href="#" class="btn-fill-sm bg-accent btn-slide-hover text-primarytext">من نحن<i class="fal fa-angle-left"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Team Area Start Here -->
+        <section class="section-bubble-4 sec-services">
+
+<div class="shape-acrt"></div>
+<div class="shape-acrb"></div>
+
+            <div class="container">
+                <div class="heading-layout1">
+                    <h2>خدماتنا</h2>
+                </div>
+                <div class="owl-carousel services-slider custom-nav">
+
+
+                    <div class="ser-block">
+                        <div class="team-box-layout3">
+                            <div class="item-img">
+                                <img src="images/sd3.jpg" alt="">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title="">تنظيف واجهات زجاجاية</a></h3>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="ser-block">
+                        <div class="team-box-layout3">
+                            <div class="item-img">
+                                <img src="images/s01.jpg" alt="">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title="">حكومي</a></h3>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ser-block">
+                        <div class="team-box-layout3">
+                            <div class="item-img">
+                                <img src="images/s02.jpg" alt="">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title="">صناعي</a></h3>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ser-block">
+                        <div class="team-box-layout3">
+                            <div class="item-img">
+                                <img src="images/s03.jpg" alt="">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title="">تجاري</a></h3>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ser-block">
+                        <div class="team-box-layout3">
+                            <div class="item-img">
+                                <img src="images/s05.jpg" alt="">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title="">اداري</a></h3>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="ser-block">
+                        <div class="team-box-layout3">
+                            <div class="item-img">
+                                <img src="images/s04.jpg" alt="">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title="">فندقي</a></h3>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="ser-block">
+                        <div class="team-box-layout3">
+                            <div class="item-img">
+                                <img src="images/s06.jpg" alt="">
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title="">مطارات</a></h3>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team Area End Here -->
+
+
+
+
+<section class="sec-why">
+
+
+<div class="container">
+
+                <div class="heading-layout1">
+                    <h2>لماذا تختار شركة سوفت سيرفيس  !</h2>
+                </div>
+
+    <div class="row">
+        <div class="col-md-3 col-6 text-center">
+            <div class="box-why"><div class="img"><img src="https://taskty.com/images/cell/hassppy.png" width="100" /></div>
+            <h3>اكتر من 4000 عميل سعيد</h3>
+        </div></div>
+        <div class="col-md-3 col-6 text-center">
+            <div class="box-why"><div class="img"><img src="https://taskty.com/images/cell/grnn.png" width="100" /></div>
+            <h3>اكتر من 600  عامل مضمون</h3>
+        </div></div>
+        <div class="col-md-3 col-6 text-center">
+            <div class="box-why"><div class="img"><img src="https://taskty.com/images/cell/100fdf.png" width="100" /></div>
+            <h3>ضمان الجودة و تنفيذ احترافى</h3>
+        </div></div>
+        <div class="col-md-3 col-6 text-center">
+            <div class="box-why"><div class="img"><img src="https://taskty.com/images/cell/donedeal.png" width="100" /></div>
+            <h3>اكثر من الآف الطلبات شهرياً</h3>
+        </div></div>
+    </div>
+
+
+
+
+            </div>
+        </section>
+
+
+        <!-- Projects Area Start Here -->
+        <section class="sec-gallery">
+
+
+            <div class="auto-container">
+
+                <div class="heading-layout1">
+                    <h2>البوم الصور</h2>
+                </div>
+
+                <div class="owl-carousel gallery-slider custom-nav">
+
+                    <div class="cp-box">
+                        <div class="project-box-layout1">
+                            <div class="item-img">
+                                <img src="images/s01.jpg" alt="project-thumb">
+                                <div class="hover-icon-wrap">
+                                    <a href="images/s01.jpg" class="hover-icon lightbox-image" data-fancybox="gallery">
+                                        <i class="fal fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cp-box">
+                        <div class="project-box-layout1">
+                            <div class="item-img">
+                                <img src="images/s02.jpg" alt="project-thumb">
+                                <div class="hover-icon-wrap">
+                                    <a href="images/s02.jpg" class="hover-icon lightbox-image" data-fancybox="gallery">
+                                        <i class="fal fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cp-box">
+                        <div class="project-box-layout1">
+                            <div class="item-img">
+                                <img src="images/s03.jpg" alt="project-thumb">
+                                <div class="hover-icon-wrap">
+                                    <a href="images/s03.jpg" class="hover-icon lightbox-image" data-fancybox="gallery">
+                                        <i class="fal fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cp-box">
+                        <div class="project-box-layout1">
+                            <div class="item-img">
+                                <img src="images/s04.jpg" alt="project-thumb">
+                                <div class="hover-icon-wrap">
+                                    <a href="images/s04.jpg" class="hover-icon lightbox-image" data-fancybox="gallery">
+                                        <i class="fal fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cp-box">
+                        <div class="project-box-layout1">
+                            <div class="item-img">
+                                <img src="images/s05.jpg" alt="project-thumb">
+                                <div class="hover-icon-wrap">
+                                    <a href="images/s05.jpg" class="hover-icon lightbox-image" data-fancybox="gallery">
+                                        <i class="fal fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cp-box">
+                        <div class="project-box-layout1">
+                            <div class="item-img">
+                                <img src="images/s06.jpg" alt="project-thumb">
+                                <div class="hover-icon-wrap">
+                                    <a href="images/s06.jpg" class="hover-icon lightbox-image" data-fancybox="gallery">
+                                        <i class="fal fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Projects Area End Here -->
+
+
+        <!-- Blog Area Start Here -->
+        <section class="sec-news section-bubble-3">
+            <div class="container">
+                <div class="heading-layout1">
+                    <h2>الاخبار</h2>
+                </div>
+                <div class="owl-carousel news-sldier custom-nav">
+                    <div class="blog-box">
+                        <div class="blog-box-layout2">
+                            <div class="item-img">
+                                <a href="#" title=""><img src="images/blog2.jpg" alt="blog-thumb"></a>
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title=""> ارخص شركة نظافة فى مصر </a></h3>
+                                <div class="entry-info">
+                                    <ul>
+                                        <li><i class="fas fa-calendar-alt"></i>4  فبراير 2022 </li>
+                                    </ul>
+                                </div>
+                                <p>افضل شركات نظافة في تقوم بمعاينة المكان أولاً الذي سيتم فيه إجراء أعمال النظافة، وتضع برنامج وخطة معينة للنظافة يسير عليها جميع أفراد الفريق بدقة، بالإضافة إلى المتابعة المستمرة، وتقديم برامج نظافة دورية “يومية- أسبوعية- شهرية”.</p>
+                                <div class="entry-meta">
+<a class="" href="#">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <div class="blog-box-layout2">
+                            <div class="item-img">
+                                <a href="#" title=""><img src="images/blog4.jpg" alt="blog-thumb"></a>
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title=""> افضل شركة نظافة وخدمات</a></h3>
+                                <div class="entry-info">
+                                    <ul>
+                                        <li><i class="fas fa-calendar-alt"></i>24  سبتمبر 2022 </li>
+                                    </ul>
+                                </div>
+                                <p> افضل شركة نظافة وخدمات، حيث يمكنك الاستعانة بشركات خدمات نظافة لتنظيف شركة أو مؤسسة او اى مكان فسوف يتم تجهيزه بالكامل، و تنظيفه وتعقيمه، حتى يعود وكأنه جديد.</p>
+                                <div class="entry-meta">
+<a class="" href="#">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <div class="blog-box-layout2">
+                            <div class="item-img">
+                                <a href="#" title=""><img src="images/blog6.jpg" alt="blog-thumb"></a>
+                            </div>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="#" title="">ما هي مهام شركات النظافة؟</a></h3>
+                                <div class="entry-info">
+                                    <ul>
+                                        <li><i class="fas fa-calendar-alt"></i>14  يناير 2022 </li>
+                                    </ul>
+                                </div>
+<p>
+                                تقوم شركات النظافة بالتنظيف الكامل للمؤسسات، تنظيف الأرضيات والحوائط والمكاتب بالإضافة لإمكانية تنظيف الواجهات الخارجية أيضًا، بالإضافة للمتابعة الدورية للتأكد من نظافة المكان.</p>
+                                <div class="entry-meta">
+<a class="" href="#">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog Area End Here -->
+
+
+
+
+        <!-- Brand Area Start Here -->
+        <section class="sec-client">
+            <div class="container">
+                <div class="heading-layout1">
+                    <h2>عملاؤنا</h2>
+                </div>
+                <div class="owl-carousel client-slider custom-nav">
+
+                    <div class="brand-box-layout2">
+                        <div class="item-img">
+                            <a href="#">
+                                <img src="images/c1.png" alt="brand">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="brand-box-layout2">
+                        <div class="item-img">
+                            <a href="#">
+                                <img src="images/c2.png" alt="brand">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="brand-box-layout2">
+                        <div class="item-img">
+                            <a href="#">
+                                <img src="images/c3.png" alt="brand">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="brand-box-layout2">
+                        <div class="item-img">
+                            <a href="#">
+                                <img src="images/c4.png" alt="brand">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="brand-box-layout2">
+                        <div class="item-img">
+                            <a href="#">
+                                <img src="images/c5.png" alt="brand">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="brand-box-layout2">
+                        <div class="item-img">
+                            <a href="#">
+                                <img src="images/c6.png" alt="brand">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Brand Area End Here -->
+
+
+
+
+
+<footer>
+<div class="footer-area footer-area2">
+    <div class="container">
+        <div class="footer-top">
+            <div class="ft-social-link">
+<div class="footer-social">
+                                <h4 class="item-title">تابعنا عبر السوشيال ميديا</h4>
+                                <ul class="social-icon">
+                                    <li><a href="<?=getValue('facebook')?>" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="<?=getValue('facebook')?>" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="<?=getValue('facebook')?>" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+            </div>
+            <div class="ft-s-input">
+<div class="footer-newsletter">
+                                <h3 class="item-title">اشترك في النشرة البريدية ليصلك اخر الاخبار</h3>
+                                <div class="input-group stylish-input-group">
+                                    <input type="text" class="form-control" placeholder="البريد الالكتروني">
+                                    <span class="input-group-addon">
+                                        <button type="submit">بحث</button>
+                                    </span>
+                                </div>
+                            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-pages">
+                    <div class="page-links">
+                        <h6>سوفت سيرفيس</h6>
+                <div class="footer-logo-area">
+
+                    <p>تقدم شركة خدمات نظافة المنازل  أسعار مميزة جداً في تنظيف المنازل بالكامل من الألف إلى الياء، وتمتاز بعملها الجاد في تنظيف جميع الاتساخات بأدوات تقنية عالية الجودة </p>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-pages">
+                    <div class="page-links">
+                        <h6>روابط الموقع</h6>
+                        <ul class="qui">
+                                   <li>
+                                        <a href="<?= $core->getPageUrl("index" . $plang) ?>" title=""><?= getTitle("index" . $plang) ?></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("about" . $plang) ?>" title=""><?= getTitle("about" . $plang) ?></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("services" . $plang) ?>" title=""><?= getTitle("services" . $plang) ?></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("news" . $plang) ?>" title=""><?= getTitle("news" . $plang) ?></a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("gallery" . $plang) ?>" title=""><?= getTitle("gallery" . $plang) ?></a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="<?= $core->getPageUrl("contact" . $plang) ?>" title=""><?= getTitle("contact" . $plang) ?></a>
+                                    </li>
+                        </ul>
+                    </div>
+                    </div>
+                    </div>
+
+            <div class="col-md-4">
+                <div class="footer-pages">
+                    <div class="page-links">
+                        <h6>اتصل بنا</h6>
+                        <ul>
+                            <li><i class="flaticon-maps-and-flags con-icon"></i> عمارة بانوراما بيراميدز (1) مشعل - الهرم - الجيزة</li>
+                            <li><i class="flaticon-mail con-icon"></i> Info@soft-services.net</li>
+                            <li><i class="flaticon-phone-call con-icon"></i>01003728233 - 01277775321</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container"><div class="copyright">
+<p>جميع الحقوق محفزظة شركة ايراسوفت 2022</p>
+</div>
+</div>
+</div>
+<footer>
+
+
+
+
+
+
+    </div>
+    <!-- jquery-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- MeanMenu js -->
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <!-- Nivo Slider js -->
+    <script src="vendor/slider/js/jquery.nivo.slider.js"></script>
+    <script src="vendor/slider/home.js"></script>
+    <!-- Owl Carousel js -->
+    <script src="vendor/OwlCarousel/owl.carousel.min.js"></script>
+    <!-- CounterUp js -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- WayPoints js -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- Validator js -->
+    <script src="js/validator.min.js"></script>
+    <!-- Select 2 js -->
+    <script src="js/select2.min.js"></script>
+    <!-- Datetime Picker js -->
+    <script src="js/jquery.datetimepicker.full.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+
+</body>
+
+
+</html>
